@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Net Naija - Pro</title>
+    <style>
+        section{
+            padding: 30px 0px;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <section id="intro">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black Belt</div>
+                        <div class="display-5 text-mutted">Your Coding Skill</div>
+                    </h1>
+                    <p class="lead mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, impedit.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <a href="#sidebar" class="d-block mt-4" data-bs-toggle="offcanvas" role="button" aria-label="sidebar">Explore My Other Books</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img src="/assets/ebook-cover.png" alt="eBookk" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pricing0" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plan</h2>
+                <p class="lead text-mutted">Choose a pricing plan to suit you </p>
+            </div>
+            <duv class="row my-5 align-items-center justify-content-center">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card  border-0">
+                        <div class="card-body text-center py-4">
+                            <h3 class="card-title">Starter Edition</h3>
+                            <p class="lead card-subtitle">eBook Download Only</p>
+                            <p class="display-5 my-4 fw-bold text-primary">$10.99</p>
+                            <p class="text-mutted card-text mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3 ">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4">
+                    <div class="card-header text-primary text-center">Most Popular</div>
+                    <div class="card border-2 border-primary">
+                        <div class="card-body text-center py-4">
+                            <h3 class="card-title">Complete Edition</h3>
+                            <p class="lead card-subtitle">eBook download & updates</p>
+                            <p class="display-4 fw-bold my-4 text-primary">$15.88</p>
+                            <p class="card-text text-mutted mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    
+                </div>
+            </duv>
+        </div>
+    </section>
+
+
+
+    <section id="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h3>Stay in The Loop</h3>
+                <p class="lead text-mutted">Get the latest updates as they happen</p>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-mutted py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dolores explicabo laborum repudiandae facilis nemo, iure eius similique rem? Tempore vel ut facilis consequuntur asperiores laudantium ea suscipit illo ipsam?</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Register for updates
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+            <button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos libero perferendis aliquid ex doloribus fuga quisquam quaerat cupiditate dolorem, dicta ipsam nihil aspernatur inventore soluta. Beatae tenetur a libero.</p>
+
+            <div class="dropdown mt-3">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" id="book-dropdown">
+                   Choose a book title
+                </button>
+                 <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                        <li><a href="#" class="dropdown-item">Become a react Superhero</a></li>
+                        <li><a href="#" class="dropdown-item">Conquering Vus.js</a></li>
+                        <li><a href="#" class="dropdown-item">Levelling up your Next.js</a></li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="reg-modal" tabindex="-1" aria-hidden="true" aria-labelledby="modal-title">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="modal-title">Get the Latest Updates</h3>
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nemo quis porro, perspiciatis est laborum voluptatem, aliquid quos eius fugit cum iure a architecto commodi veniam nostrum ratione enim repellat?</p>
+
+                        <label for="email" class="form-label">Your Email Address:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="e.g, mario@gmail.com">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t  =>{
+            new bootstrap.Tooltips(t)
+        })
+    </script>
+    
+</body>
+</html>
